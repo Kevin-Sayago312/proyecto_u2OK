@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="bg-primary">
+    <nav class="navegacion content">
+        <a href="#">Inicio</a>
+        <a href="#">Habilidades</a>
+        <a href="#">Proyecto</a>
+        <a href="#">Contacto</a>
+    </nav>
+</div>
+    <section class="hero">
+        <div class="hero-content">
+        <h1>Desarrollo web, movil y UX Design</h1>
+        <p> Creamos soluciones web, movil y de experiencia de usuario para ti</p>
+        <a class="button" href="#">Saber más</a>
+        </div>
+    </section>
+    <main class="content shadow">
+        <section class="habilidades"> <!-- Seccion de habilidades -->
+            <h2>Habilidades</h2>
+            <div class="habilidades-content">
+            <div class="habilidad">
+                <h3>Desarrollo web</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0d4996" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                        <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                      </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, exercitationem officia fugit iusto, saepe explicabo dignissimos sequi vero, rem illo ducimus voluptate corrupti nemo iste atque molestiae nulla reiciendis porro.</p>
+            </div>
+
+            <div class="habilidad">
+                <h3>Desarrollo movil</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0d4996" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z" />
+                        <path d="M11 4h2" />
+                        <path d="M12 17v.01" />
+                      </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, exercitationem officia fugit iusto, saepe explicabo dignissimos sequi vero, rem illo ducimus voluptate corrupti nemo iste atque molestiae nulla reiciendis porro.</p>
+            </div>
+
+            <div class="habilidad">
+                <h3>Desarrollo UX Design</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-code" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0d4996" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h3.5" />
+                        <path d="M20 21l2 -2l-2 -2" />
+                        <path d="M17 17l-2 2l2 2" />
+                      </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, exercitationem officia fugit iusto, saepe explicabo dignissimos sequi vero, rem illo ducimus voluptate corrupti nemo iste atque molestiae nulla reiciendis porro.</p>
+            </div>
+            </div>
+        </section> <!-- Fin habilidades -->
+        <section class="proyectos"> <!-- Seccion proyectos -->
+            <h2> Proyectos </h2>
+            <div class="proyectos-content">
+            <img class="shadow" src="img/2.png" alt="Imagen 2">
+            <img class="shadow" src="img/3.png" alt="Imagen 3">
+            <img class="shadow" src="img/4.jpg" alt="Imagen 4">
+            </div>
+        </section> <!-- Fin Seccion proyectos -->
+        <section class="contactanos"> <!-- Seccion contactanos -->
+            <h2>Contáctanos</h2>
+            <form class="formulario"> <!-- Crear un formulario -->
+                <div class="campo"> 
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Escribe tu Nombre">
+                </div>
+
+                <div class="campo"> 
+                    <label>Telefono</label>
+                    <input type="tel" placeholder="Escribe tu numero telefónico">
+                </div>
+
+                <div class="campo"> 
+                    <label>Correo</label>
+                    <input type="email" placeholder="Escribe tu correo electrónico">
+                </div>
+
+                <div class="campo"> 
+                    <label>Mensaje</label>
+                    <textarea class="input-text" placeholder="Deja un Mensaje"></textarea>
+                </div>
+
+                <input class="button" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> Todos los derechos reservados </p>
+    </footer>
+</body>
+</html>
